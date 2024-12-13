@@ -33,3 +33,10 @@ def filter_list(a, b):
             c.append(a[0]) # store if the if condition is true
         a = a[1:]
     return c
+
+
+def mystery_2(a):
+    if len(a) == 0:
+        return None
+
+    return len(a)

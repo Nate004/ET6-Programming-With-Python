@@ -30,3 +30,6 @@ def sort_bubble(a: list) -> list:
             if a[d] > a[d + 1]:
                 a[d], a[d + 1] = a[d + 1], a[d]
     return a
+
+def mystery_1(a,b):
+    return a + b
