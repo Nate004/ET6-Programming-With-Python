@@ -35,8 +35,8 @@ def filter_list(a, b):
     return c
 
 
-def mystery_2(a):
-    if len(a) == 0:
-        return None
+# def mystery_2(a):
+#     if len(a) == 0:
+#         return None
 
-    return len(a)
+#     return len(a)

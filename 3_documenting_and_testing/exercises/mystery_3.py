@@ -1,7 +1,10 @@
 def mystery_3(a, b):
-    if a < b:
+    """"This function finds the minimum and maximum value between 2 inputs a & b
+    where both inputs are equal, the final if condition returns the sum of a & b
+    """
+    if a < b: # test for minimum
         return a
-    elif a > b:
+    elif a > b: # test for maximum
         return b
     else:
         return a + b
