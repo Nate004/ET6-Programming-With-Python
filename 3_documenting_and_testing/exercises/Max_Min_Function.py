@@ -1,5 +1,5 @@
 def max_min(a, b):
-    """"This function finds the minimum and maximum value between 2 inputs a & b
+    """"This function finds the minimum and maximum value between 2 inputs a & b and outputs the minimum value;
     where both inputs are equal, the final if condition returns the sum of a & b
     
     >>> max_min(10,7)
@@ -8,7 +8,10 @@ def max_min(a, b):
     3
     >>> max_min(2,2)
     4
+    >>> max_min(-10, -9)
+    -10
     """
+    assert isinstance(a, int) and isinstance(b, int), " to specify input type must be integers"
     if a < b: # test for minimum
         return a
     elif a > b: # test for maximum
