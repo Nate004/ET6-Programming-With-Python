@@ -1,6 +1,6 @@
 import unittest
 
-from ..mystery_3 import mystery_3
+from ..Max_Min_Function import max_min
 
 class TestMystery3(unittest.TestCase):
     """ """
