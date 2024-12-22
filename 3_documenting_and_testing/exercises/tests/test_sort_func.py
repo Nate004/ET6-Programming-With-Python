@@ -1,18 +1,18 @@
 import unittest
 
-from ..mystery_5 import mystery_5
+from ..sort_func import sort_func
 
 class TestMystery5(unittest.TestCase):
     """ """
 
     def test_minimal_input(self):
         """"""
-        self.assertEqual(mystery_5([], []), [])
+        self.assertEqual(sort_func([], []), [])
 
     def test_minimal_input_none(self):
         """"""
-        self.assertEqual(mystery_5([], None), [])
+        self.assertEqual(sort_func([], None), [])
 
     def test_minimal_input_default_argument(self):
         """"""
-        self.assertEqual(mystery_5([]), [])
+        self.assertEqual(sort_func([]), [])
