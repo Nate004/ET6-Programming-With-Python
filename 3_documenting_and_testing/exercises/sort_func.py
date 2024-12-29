@@ -9,7 +9,8 @@ def sort_func(a, b=None):
     [0.5, 1.0, 1.5, 2.9, 3.2]
     
     """
-    assert isinstance(a, int) and isinstance(b, int), " to specify input type must be integers"
+    assert isinstance(a, list), "a should be a list"
+    assert b is None or isinstance(b, list), "Second argument must be a list or None"
     if b is None:
         b = []
     while a:
