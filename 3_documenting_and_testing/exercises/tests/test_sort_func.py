@@ -3,8 +3,7 @@ import unittest
 from ..sort_func import sort_func
 
 class TestMystery5(unittest.TestCase):
-    """ """
-
+    """ This tests for various inputs and outputs """
     def test_minimal_input(self):
         """Test for empty list"""
         self.assertEqual(sort_func([], []), [])

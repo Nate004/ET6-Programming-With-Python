@@ -1,3 +1,9 @@
+"""
+sort_func.py
+
+This module provides functions to sort a list of integers in ascending order.
+"""
+
 def sort_func(a, b=None):
     """This function sorts a list of numbers in ascending order
     returns a list b
