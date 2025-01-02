@@ -46,6 +46,13 @@ def consecutive_list(a: int, b: int) -> list[int]:
     >>> consecutive_list(3, 10)
     [10, 11, 12]
     """
+    
+    # the length should be an integer greater than or equal to 0
+    assert isinstance(a, int), "a is not an integer"
+    assert isinstance(b, int), "b is not an integer"
+    assert a >= 0, "a is less than 0"
+    
+    
     if a == 0: # If list a is 0, function to return an empty list
         return []
 
