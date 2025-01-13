@@ -14,7 +14,6 @@ import unittest
 
 from ..consecutive_list import consecutive_list
 
-
 class TestConstructiveList(unittest.TestCase):
     """To test the constructive_list function"""
 
